@@ -18,3 +18,13 @@
 # Outros arquivos temporários
 *.tmp
 *.swp
+
+# Arquivos de build
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+*.war
+app

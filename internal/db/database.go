@@ -11,7 +11,7 @@ import (
 
 var Postgres *gorm.DB
 
-func Init() {
+func Init() error {
 	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
 		os.Getenv("DB_HOST"),
 		os.Getenv("DB_PORT"),
@@ -21,7 +21,8 @@ func Init() {
 	)
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
-		log.Fatal("Error connecting to database: ", err)
+		fmt.Println("Error connecting to database: ", err)
+		return err
 	}
 	Postgres = db
 	fmt.Println("Database connected")
@@ -30,4 +31,5 @@ func Init() {
 		log.Fatal("Error migrating database: ", err)
 	}
 	fmt.Println("Database migrated")
+	return nil
 }

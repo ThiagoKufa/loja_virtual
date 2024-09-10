@@ -6,8 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - "3030:3030"
     environment:
+      - PORT=3030
       - DB_HOST=db
       - DB_PORT=5432
       - DB_USER=your_user
@@ -26,3 +27,8 @@ services:
       POSTGRES_DB: your_db
     ports:
       - "5432:5432"
+    volumes: # Adicionando volumes para persistência
+      - db_data:/var/lib/postgresql/data
+
+volumes: # Definindo o volume
+  db_data:
