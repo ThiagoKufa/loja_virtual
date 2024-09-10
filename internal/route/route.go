@@ -5,6 +5,7 @@ import (
 	"github.com/thiagokufa/loja_virtual/internal/account"
 )
 
-func Init(r *gin.Engine) {
+func Init(r *gin.Engine, version string) {
+	r.Static("/versions", version)
 	account.InitRoute(r)
 }
