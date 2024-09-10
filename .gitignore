@@ -1,0 +1,20 @@
+# Go binaries
+/bin/
+/obj/
+
+# Dependências do Go
+/vendor/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de log
+*.log
+
+# Outros arquivos temporários
+*.tmp
+*.swp
