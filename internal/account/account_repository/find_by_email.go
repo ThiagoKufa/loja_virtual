@@ -1,8 +1,8 @@
 package account_repository
 
 import (
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
-	"github.com/thiagokufa/server_task_app/internal/db"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/internal/db"
 )
 
 func FindByEmail(email string) (account_entity.Account, error) {

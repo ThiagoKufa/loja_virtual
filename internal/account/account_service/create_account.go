@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
-	"github.com/thiagokufa/server_task_app/internal/account/account_repository"
-	"github.com/thiagokufa/server_task_app/internal/account/account_validate"
-	"github.com/thiagokufa/server_task_app/pkg/utils"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_repository"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_validate"
+	"github.com/thiagokufa/loja_virtual/pkg/utils"
 )
 
 // Create cria uma nova conta de usuário.

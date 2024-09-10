@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
 	"gorm.io/gorm"
 )
 

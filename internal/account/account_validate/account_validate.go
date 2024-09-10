@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
-	"github.com/thiagokufa/server_task_app/pkg/utils"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/pkg/utils"
 )
 
 func RegisterValidation(a *account_entity.Account) utils.ErrorResponse {

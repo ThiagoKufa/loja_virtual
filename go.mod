@@ -1,4 +1,4 @@
-module github.com/thiagokufa/server_task_app
+module github.com/thiagokufa/loja_virtual
 
 go 1.22.3
 

@@ -3,9 +3,9 @@ package account_service
 import (
 	"net/http"
 
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
-	"github.com/thiagokufa/server_task_app/internal/account/account_repository"
-	"github.com/thiagokufa/server_task_app/pkg/utils"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_repository"
+	"github.com/thiagokufa/loja_virtual/pkg/utils"
 )
 
 func Login(a account_entity.LoginAccountRequestDTO) (account_entity.LoginAccountResponseDTO, utils.ErrorResponse) {

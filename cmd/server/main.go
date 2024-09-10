@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/thiagokufa/server_task_app/internal/db"
-	"github.com/thiagokufa/server_task_app/internal/server"
-	"github.com/thiagokufa/server_task_app/pkg/utils"
+	"github.com/thiagokufa/loja_virtual/internal/db"
+	"github.com/thiagokufa/loja_virtual/internal/server"
+	"github.com/thiagokufa/loja_virtual/pkg/utils"
 )
 
 func main() {

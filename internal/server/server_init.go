@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/thiagokufa/server_task_app/internal/route"
+	"github.com/thiagokufa/loja_virtual/internal/route"
 )
 
 func Init() {

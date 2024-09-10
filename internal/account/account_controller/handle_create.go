@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/thiagokufa/server_task_app/internal/account/account_entity"
-	"github.com/thiagokufa/server_task_app/internal/account/account_service"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_entity"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_service"
 )
 
 func HandleCreate(c *gin.Context) {

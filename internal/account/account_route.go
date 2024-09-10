@@ -2,7 +2,7 @@ package account
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/thiagokufa/server_task_app/internal/account/account_controller"
+	"github.com/thiagokufa/loja_virtual/internal/account/account_controller"
 )
 
 func InitRoute(r *gin.Engine) {
